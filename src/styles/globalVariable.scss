@@ -1,0 +1,21 @@
+$color: red;
+
+.h2{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 800;
+  color: #000716;
+}
+
+.awsui_container_hyvsj_10dcz_490:not(#\9):has(div[class^="awsui_layout_5gtk3"]),
+.awsui_container_hyvsj_10dcz_490:not(#\9):has(div[class^="awsui_wizard_"])
+{
+  // container 跟table表现不一致问题， 临时方案
+  // Inconsistent performance between container and table, temporary solution
+  z-index: 800;
+}
+
+.awsui_exceed_limit_ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
