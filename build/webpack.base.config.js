@@ -10,8 +10,8 @@ module.exports = {
   output: {
     path: config.build.assetsRoot,
     publicPath: config.build.assetsPublicPath,
-    chunkFilename: 'js/[fullhash].js',
-    filename: 'js/[name].[fullhash].js',
+    chunkFilename: 'js/[contenthash].js',
+    filename: 'js/[name].[contenthash].js',
     clean: true
   },
   resolve: {
